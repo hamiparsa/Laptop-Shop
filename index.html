@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- code for use icon for website -->
+    <link rel="icon site" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE0klEQVR4nO2aW4gdRRCGJ0bRBI3xFlHxQUW8azQSwSUmRNEjOdmZ/29GiAuuJhLJg3gh4N198EEf9MGggheIwYdAEBVfFC8EFEnExFt0UUQ0EjFBY1Syu6f7aEaqt2aZXZfN2WTOnDMyBQ17Zmem66uq7q6uniCopJJKKqmkxJIApzmyp0le181NdEyWLz/1kEEtcLEFNlvygCOTMjTR1QLvNsjzpwdrzOWW/KvTAIcBvk8cFrQiSRDMcORnnVY6B+iPWw3lKzqtbG7QxlzUSjiv6LSiebUGaQ4OTN76v/Ew0FcBT5TKw+x8aFYhzWoMJ+WctIBdFhieYtb925E/WbJZ9ln680YUXSD9J6tXH+WAByfJ4Tcmy5ad4O+J41McuamUwBawI1F0jgcB5gmw/O3Igcx9g+n1oTg+w9+7ePGRFnivdMCO3C79NuL4PAlVgUjieGZSqx3tgJ2q+FNeN+B2feZRfebCqXZztiuBge80TE+05G6vqDErFPBJvecl73VjFlngHwu44TA8UyNhe7mAyaQRRaFXHrhbAV9W4FtU8T8ygG+oUfr1mfWlA3bAnQp4m17bmN3IyDiXXZwCb9Bn7lDg58sFDLwpe3A/Zslteu0ehXlE77tXfo+QZ6eFCRuG81Xf98sFTPZov88q7M6kVpuj3twm4ZzU67NlVnbkl/rMa/L/pF4/2ZKN0gBbYK9XvFab48NWEoooWqDhHasBXpXfzSi6UZ/7ITWIJZ85yPv7ugrYAV94T0bRAr22Y8xzwJ9eafJpDe+1+nudN4Ax17dg0L5uA/4xHZupx334BsEMS76j96z3ehmzUoHf8kaJopPSZaw0wJY8kMTxserBT/XaExrSfdlinNTH0zy7Sd7gnyFf7FpgC4w44PtskxpymjJKaVgzq4c8YBjOtcAnqQFSL1tyTxNYqsA9jvx2kvfuleTERdHCwoEFVBIImWWDAkWWuaAVyd3DwFqvQBzPlLFaRJN5oGXL2JyBR+L4LP9e4IMC54Zf06WrcOB0UrLA/qKAdSi1dtSSO7COXdnlFAnsjLmyM8D9/cfoe5sFe3h0s2HMVZZclQwMHFEIcFqhsORvRQKnVRQLfKTXNklC03Zga8yl3tLkYKEJTW/vcdpvjxyfqi43tRVYOpbSje8YeL0wDwO7JjDdrPp8+B/god7e0/P6DCF7XGmBxwrzMPB2likJw7kK/HtQlDSNubYwD5MPjAMG5inwbrH845LTtq2R63xFI45nWXKoE0uSTUMa2FxMQmDMIunYAa+0vS/gm3HejeNZDvjaAxuzcsoyZ45j6jkf1sDSAoDvG4Ot+TpZekKxw+cEEnJtByb3jZVlgK1t7SeOj/fRRF6T2WPLVz2XpZPJkrZbfbTd32pp5jDaw5nq5mhmN7o/Hp9XW3JLAaH2Vdqf1J3b0MdgugeW0HXkC1LunXRfrF/djbQx1PY0AGQmEjn9+zm39wNWcuZprZONKAp9WSRvWGB/gzx3Yn+ydEx1FjxNg66aFmwqsnykJ3Y5hvJo1TEM50vFccI6/UsOBh2eZP2Pg1YlqddnO/IumeFy+rB0jTcmuaZdQ2aStqFl4Kz4I8wwvETSwkP6pDeKFqZbMtmPOmOubvunxMYsmVZNq5JKKqmkkqB75F9kiyp9c/mCugAAAABJRU5ErkJggg==">
+    <title>Laptop</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
+    <!-- code for use icon for website -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <!-- create header for website -->
+        <header>
+            <!-- create menu hamberger  -->
+            <input type="checkbox" id="checkbox">
+                <div class="cancel">
+                    <img src="/assets/images/cancel.gif" id="cancel" alt="">
+                </div>
+                <div class="menuBox">
+                    <i class="fa-solid fa-bars" id="menuIcon"></i> 
+                </div>
+                <div class="menuHamberger">
+                    <br>
+                    <a href="#Apple">
+                        <p>Apple</p>
+                    </a>
+                    <hr>
+                    <br>
+                    <a href="#Asus">
+                        <p>Asus</p>
+                    </a>
+                    <hr>
+                    <br>
+                    <a href="#Dell">
+                        <p>Dell</p>
+                    </a>
+                    <hr>
+                    <br>
+                    <a href="#Lenovo">
+                        <p>Lenovo</p>
+                    </a>
+                    <hr>
+                    <br>
+                    <a href="#Hp">
+                        <p>Hp</p>
+                    </a>
+                    <hr>
+                    <br>
+                    <a href="#Pixel">
+                        <p>pixel</p>
+                    </a>
+                    <hr>
+                    <br>
+                    <a href="#Lg">
+                        <p>Lg</p>
+                    </a>
+                    <hr>
+                    <br>
+                    <a href="#Microsoft">
+                        <p>Microsoft</p>
+                    </a>
+                    <hr>
+                </div>
+            <!-- create logo and title for header -->
+            <i class="fa-solid fa-laptop-code" id="laptopLogo"></i>
+            <p>Laptop Shop</p>
+            <br>
+            <!-- create menu for website -->
+            <aside class="menu">
+                <a href="#Apple">
+                    <p>Apple</p>
+                </a>
+                <a href="#Asus">
+                    <p>Asus</p>
+                </a>
+                <a href="#Dell">
+                    <p>Dell</p>
+                </a>
+                <a href="#Lenovo">
+                    <p>Lenovo</p>
+                </a>
+                <a href="#Hp">
+                    <p>Hp</p>
+                </a>
+                <a href="#Pixel">
+                    <p>pixel</p>
+                </a>
+                <a href="#Lg">
+                    <p>Lg</p>
+                </a>
+                <a href="#Microsoft">
+                    <p>Microsoft</p>
+                </a>
+            </aside>
+            
+        </header>
+        
+    <main>
+        <!-- create menu header for website -->
+        <div class="miniHeader">
+            <iframe src='https://my.spline.design/laptops-b8dbd842c6e348b69d59e89d24a716a5/' frameborder='0' width='100%' height='100%'></iframe>
+            <img src="/assets/images/laptop-header.png" alt="" class="laptopHeader">
+        </div>
+        <!-- create sociamedia box for miniheader -->
+        <div class="sociaMedia">
+            <i class="fa-brands fa-instagram" id="instagram"></i>
+            <i class="fa-brands fa-x-twitter" id="twitter"></i>
+            <i class="fa-brands fa-pinterest" id="pinterest"></i>
+        </div>
+        <!-- create video autoplay for website -->
+        <div class="videoAutoPlay">
+            <video class="wow bounceInLeft" autoplay loop muted src="/assets/video/Gaming Laptop.mp4"></video>
+        </div>
+        <!-- create slider autoplay -->
+        <div class="sliderAutoPlay ">
+            
+        </div>
+        <!-- create main box for category brand -->
+        <div class="mainBox wow bounceInLeft">
+            <div class="box">
+                <p>
+                    <a href="#Asus">Asus</a>
+                </p>
+                <img width="50" height="50" src="https://img.icons8.com/nolan/50/asus--v2.png" alt="asus--v2"/>
+            </div>
+            <div class="box">
+                <p>
+                    <a href="#Apple">Apple</a>
+                </p>
+                <img width="50" height="50" src="https://img.icons8.com/3d-fluency/94/mac-os.png" alt="mac-os"/>
+            </div>
+            <div class="box">
+                <p>
+                    <a href="#Dell">Dell</a>
+                </p>
+                <img width="50" height="50" src="https://img.icons8.com/nolan/50/dell.png" alt="dell"/>
+            </div>
+            <div class="box">
+                <p>
+                    <a href="#Lenovo">Lenovo</a>
+                </p>
+                <img width="50" height="50" src="https://img.icons8.com/color/50/lenovo.png" alt="dell"/>
+            </div>
+            <div class="box">
+                <p>
+                    <a href="#Hp">Hp</a>
+                </p>
+                <img width="50" height="50" src="https://img.icons8.com/color/50/hp.png" alt="dell"/>
+            </div>
+            <div class="box">
+                <p>
+                    <a href="#Pixel">Google</a>
+                </p>
+                <img width="50" height="50" src="https://img.icons8.com/clouds/50/google-logo.png" alt="dell"/>
+            </div>
+            <div class="box">
+                <p>
+                    <a href="#Lg">Lg</a>
+                </p>
+                <img width="40" height="40" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-lg-electronics-a-south-korean-multinational-electronics-company-industry-shadow-tal-revivo.png" alt="dell"/>
+            </div>
+            <div class="box">
+                <p>
+                    <a href="#Microsoft">Microsoft</a>
+                </p>
+                <img width="50" height="50" src="https://img.icons8.com/color/50/microsoft.png" alt="dell"/>
+            </div>
+        </div>
+        <!-- use mainbox laptop for use picture laptop -->
+        <div class="mainBoxLaptop">
+            <img class="wow bounceIn" src="/assets/images/laptop1.png" alt="" id="laptop">
+            <img class="wow bounceInLeft" src="/assets/images/laptop2.png" alt="" id="laptop">
+            <img class="wow bounceInRight" src="/assets/images/laptop3.png" alt="" id="laptop">
+            <img class="wow bounceInUp" src="/assets/images/laptop4.png" alt="" id="laptop">
+            <img class="wow rotateInDownLeft" src="/assets/images/laptop5.png" alt="" id="laptop">
+            <img class="wow rotateInUpRight" src="/assets/images/laptop6.png" alt="" id="laptop">
+            <img class="wow rollIn" src="/assets/images/laptop7.png" alt="" id="laptop">
+            <img class="wow fadeInDownBig" src="/assets/images/laptop8.png" alt="" id="laptop">
+        </div>
+        <!-- use title off  -->
+        <div class="titleOffBox wow bounceInUp">
+            <i class="fa-solid fa-percent"></i>
+            <p>OFF LAPTOP FOR BLACK FRIDAY</p>
+        </div>
+        <!-- create laptop slider for off -->
+        <div class="priceSlider wow bounceInUp" id="Apple">
+            
+            <div class="laptop">
+                <div class="imageBox">
+
+                </div>
+                <div>
+                    <del>200$</del>
+                    <p>150$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+
+            </div>
+            <div class="laptop">
+                <div class="imageBox2">
+
+                </div>
+                <div>
+                    <del>500$</del>
+                    <p>250$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="imageBox3">
+
+                </div>
+                <div>
+                    <del>1000$</del>
+                    <p>500$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="imageBox4">
+
+                </div>
+                <div>
+                    <del>1200$</del>
+                    <p>700$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>                
+            </div>
+            <div class="laptop">
+                <div class="imageBox5">
+
+                </div>
+                <div>
+                    <del>1300$</del>
+                    <p>850$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="imageBox6">
+
+                </div>
+                <div>
+                    <del>1500$</del>
+                    <p>1000$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="imageBox7">
+
+                </div>
+                <div>
+                    <del>1600$</del>
+                    <p>1200$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="imageBox8">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+        </div>
+        create best brand laptop asus , lenovo , hp and ....
+        <div class="bestBrandTitle wow bounceInUp">
+            <p id="Asus">Best Laptop Asus</p>
+            <img width="50" height="50" src="https://img.icons8.com/nolan/50/asus--v2.png" alt="asus--v2"/>
+        </div>
+        <div class="mainBestLaptop wow bounceInUp">
+            
+            <div class="laptop">
+                <div class="laptopAsus1">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="laptopAsus2">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="laptopAsus3">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+        </div>
+        <div class="bestBrandTitle wow bounceInUp">
+            <p id="Dell">Best Laptop Dell</p>
+            <img width="50" height="50" src="https://img.icons8.com/nolan/50/dell.png" alt="dell"/>
+        </div>
+        <div class="mainBestLaptop wow bounceInUp">
+            
+            <div class="laptop">
+                <div class="dellLaptop1">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="dellLaptop2">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="dellLaptop3">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+        </div>
+        <div class="bestBrandTitle wow bounceInUp">
+            <p id="Lenovo">Best Laptop Lenovo</p>
+            <img width="50" height="50" src="https://img.icons8.com/color/50/lenovo.png" alt="dell"/>
+        </div>
+        <div class="mainBestLaptop wow bounceInUp">
+            
+            <div class="laptop">
+                <div class="lenovoLaptop1">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="lenovoLaptop2">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="lenovoLaptop3">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+        </div>
+        <div class="bestBrandTitle wow bounceInUp">
+            <p id="Hp">Best Laptop Hp</p>
+            <img width="50" height="50" src="https://img.icons8.com/color/50/hp.png" alt="dell"/>
+        </div>
+        <div class="mainBestLaptop wow bounceInUp">
+            
+            <div class="laptop">
+                <div class="laptopHp1">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="laptopHp2">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="laptopHp3">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+        </div>
+        <div class="bestBrandTitle wow bounceInUp">
+            <p id="Pixel">Best Laptop pixel</p>
+            <img width="50" height="50" src="https://img.icons8.com/clouds/50/google-logo.png" alt="dell"/>
+        </div>
+        <div class="mainBestLaptop wow bounceInUp">
+            
+            <div class="laptop">
+                <div class="laptopPixel1">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="laptopPixel2">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="laptopPixel3">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+        </div>
+        <div class="bestBrandTitle wow bounceInUp">
+            <p id="Lg">Best Laptop Lg</p>
+            <img width="40" height="40" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-lg-electronics-a-south-korean-multinational-electronics-company-industry-shadow-tal-revivo.png" alt="dell"/>
+        </div>
+        <div class="mainBestLaptop wow bounceInUp">
+            
+            <div class="laptop">
+                <div class="laptopPixel1">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="laptopPixel2">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="laptopPixel3">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+        </div>
+        <div class="bestBrandTitle wow bounceInUp">
+            <p id="Microsoft">Best Laptop Microsoft</p>
+            <img width="50" height="50" src="https://img.icons8.com/color/50/microsoft.png" alt="dell"/>
+        </div>
+        <div class="mainBestLaptop wow bounceInUp">
+            
+            <div class="laptop">
+                <div class="laptopMicrosoft1">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="laptopMicrosoft2">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+            <div class="laptop">
+                <div class="laptopMicrosoft3">
+
+                </div>
+                <div>
+                    <del>1700$</del>
+                    <p>1450$</p>
+                </div>
+                <div class="addToCartBox">
+                    <p>ADD TO CART</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="hrBox">
+            <hr class="hr">
+        <br>
+        <hr class="hr">
+        <br>
+        <hr class="hr">
+        <br>
+        <hr class="hr">
+        </div>
+    </main>
+    <br>
+    <br>
+    <!-- create footer for website -->
+    <footer>
+        <div class="titleFooter">
+            <i class="fa-solid fa-laptop-code" id="laptopLogo"></i>
+            <p>Laptop Shop</p>
+        </div>
+        <div class="mainMediFooter">
+            <div>
+                <a href="#Apple">
+                    <p>Apple</p>
+                </a>
+                <a href="#Asus">
+                    <p>Asus</p>
+                </a>
+                <a href="#Dell">
+                    <p>Dell</p>
+                </a>
+                <a href="#Lenovo">
+                    <p>Lenovo</p>
+                </a>
+            </div>
+            <div class>
+                <a href="#Hp">
+                    <p>Hp</p>
+                </a>
+                <a href="#Pixel">
+                    <p>pixel</p>
+                </a>
+                <a href="#Lg">
+                    <p>Lg</p>
+                </a>
+                <a href="#Microsoft">
+                    <p>Microsoft</p>
+                </a>
+            </div>
+        </div>
+        <div class="sociaMediaBox">
+            <i class="fa-brands fa-instagram" id="instagram"></i>
+            <i class="fa-brands fa-x-twitter" id="twitter"></i>
+            <i class="fa-brands fa-pinterest" id="pinterest"></i>
+        </div>
+    </footer>
+    </section>
+    <!-- code for add libery wow js  -->
+    <script src="assets/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
+</html>
